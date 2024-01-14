@@ -1,0 +1,30 @@
+
+django-admin startproject portfolio -- project name and creation
+python manage.py runserver -- run project
+
+D:\portfolio-project\portfolio
+
+python manage.py makemigrations
+
+
+
+
+
+python manage.py migrate
+python manage.py runserver
+
+http://127.0.0.1:8000/Kharak
+
+http://127.0.0.1:8000/admin/jobs/job/1/change/
+
+
+
+'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'portfolio1',  # Your PostgreSQL database name
+        'USER': 'kharak1',       # Your PostgreSQL user
+        'PASSWORD': 'root',     # Your PostgreSQL password
+        'HOST': 'localhost',
+        'PORT': '5432',
+
+
+python manage.py collectstatic
